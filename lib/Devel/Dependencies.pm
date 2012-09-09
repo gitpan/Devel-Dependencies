@@ -1,12 +1,16 @@
 package Devel::Dependencies;
 
 use 5.006001;
-use strict;
-use warnings;
 
 package Devel::Dependencies;
 
-our $VERSION = '1.01';
+# We don't
+#   use strict;
+#   use warnings;
+# Because if we did, then we wouldn't be able to tell whether the
+# target code used those pragmata
+
+our $VERSION = '1.02';
 
 my %opt;
 

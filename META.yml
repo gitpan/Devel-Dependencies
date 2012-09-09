@@ -21,4 +21,4 @@ requires:
   Time::HiRes: 0
 resources:
   repository: https://github.com/neilbowers/Devel-Dependencies
-version: 1.01
+version: 1.02
