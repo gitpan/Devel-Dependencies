@@ -4,9 +4,9 @@
       "Neil Bowers <neil@bowers.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.133380",
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -32,15 +32,18 @@
       },
       "runtime" : {
          "requires" : {
-            "Time::HiRes" : "0"
+            "Time::HiRes" : "0",
+            "perl" : "5.006001"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "repository" : {
-         "url" : "https://github.com/neilbowers/Devel-Dependencies"
+         "type" : "git",
+         "url" : "git://github.com/neilbowers/Devel-Dependencies.git",
+         "web" : "https://github.com/neilbowers/Devel-Dependencies"
       }
    },
-   "version" : "1.02"
+   "version" : "1.03"
 }

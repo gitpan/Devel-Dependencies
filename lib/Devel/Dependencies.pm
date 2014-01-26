@@ -4,13 +4,17 @@ use 5.006001;
 
 package Devel::Dependencies;
 
-# We don't
+# We don't actually
 #   use strict;
 #   use warnings;
 # Because if we did, then we wouldn't be able to tell whether the
-# target code used those pragmata
+# target code used those pragmata. Thanks/blame TOBYINK for this :-)
+my $cpants = q/
+use strict;
+use warnings;
+#/;
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 my %opt;
 
